@@ -5,7 +5,7 @@
 
 ## Table of Contents
 - [About](#About)
-- [Getting Started](#Getting_Started)
+- [Getting Started](#Getting-Started)
 - [Usage](#Usage)
 
 ## About
