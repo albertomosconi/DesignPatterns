@@ -3,16 +3,16 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
+## Table of Contents
+- [About](#About)
+- [Getting Started](#Getting_Started)
+- [Usage](#Usage)
 
-## 🧐 About <a name = "about"></a>
+## About
 This is a little personal project created with the goal of learning Design Patters in Java. It is by no means a professional guide.
 I took these examples from [this course](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc "this course") on Youtube.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## Getting Started 
 
 ### Prerequisites
 You should have Java 12 installed on your machine.
@@ -41,6 +41,6 @@ Open it with your favorite code editor
 code .
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## Usage 
 In the file `src/it/albertomosconi/designpatterns/Main.java`, comment and uncomment the lines relative to different 
 design patterns and run the code to see the output of the example code in the terminal.
