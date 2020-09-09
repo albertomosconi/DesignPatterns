@@ -1,4 +1,4 @@
-package it.albertomosconi.designpatters.strategy;
+package it.albertomosconi.designpatters.strategy.behavior;
 
 public class DefaultQuacking implements IQuackingBehavior {
     @Override

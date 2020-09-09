@@ -1,5 +1,8 @@
 package it.albertomosconi.designpatters.strategy;
 
+import it.albertomosconi.designpatters.strategy.behavior.IFlyingBehavior;
+import it.albertomosconi.designpatters.strategy.behavior.IQuackingBehavior;
+
 public class Duck {
     private IFlyingBehavior flyingBehavior;
     private IQuackingBehavior quackingBehavior;

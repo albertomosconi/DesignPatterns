@@ -1,4 +1,6 @@
-package it.albertomosconi.designpatters.strategy;
+package it.albertomosconi.designpatters.strategy.behavior;
+
+import it.albertomosconi.designpatters.strategy.behavior.IFlyingBehavior;
 
 public class NoFlying implements IFlyingBehavior {
     @Override
