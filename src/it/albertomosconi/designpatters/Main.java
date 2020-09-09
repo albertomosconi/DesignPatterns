@@ -21,22 +21,23 @@ public class Main {
 //        rubberDuck.quack();
 
 //        OBSERVER PATTERN - uncomment the lines below and run to see it in action
-//        var weatherStation = new WeatherStation();
-//        var androidPhoneDisplay = new PhoneDisplay(weatherStation);
-//        weatherStation.add(androidPhoneDisplay);
-//        var iOSPhoneDisplay = new PhoneDisplay(weatherStation);
-//        weatherStation.add(iOSPhoneDisplay);
-//        var tvDisplay = new TelevisionDisplay(weatherStation);
-//        weatherStation.add(tvDisplay);
-//
-//        androidPhoneDisplay.display();
-//        iOSPhoneDisplay.display();
-//        tvDisplay.display();
-//
-//        weatherStation.setTemperature(100);
-//
-//        androidPhoneDisplay.display();
-//        iOSPhoneDisplay.display();
-//        tvDisplay.display();
+        var weatherStation = new WeatherStation();
+        var androidPhoneDisplay = new PhoneDisplay();
+        weatherStation.add(androidPhoneDisplay);
+        var iOSPhoneDisplay = new PhoneDisplay();
+        weatherStation.add(iOSPhoneDisplay);
+        var tvDisplay = new TelevisionDisplay();
+        weatherStation.add(tvDisplay);
+
+        androidPhoneDisplay.display();
+        iOSPhoneDisplay.display();
+        tvDisplay.display();
+
+        weatherStation.remove(iOSPhoneDisplay);
+        weatherStation.setTemperature(100);
+
+        androidPhoneDisplay.display();
+        iOSPhoneDisplay.display();
+        tvDisplay.display();
     }
 }

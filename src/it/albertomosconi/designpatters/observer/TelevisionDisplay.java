@@ -2,16 +2,11 @@ package it.albertomosconi.designpatters.observer;
 
 public class TelevisionDisplay implements IObserver, IDisplay {
 
-    private WeatherStation weatherStation;
     private int temperature;
 
-    public TelevisionDisplay(WeatherStation weatherStation){
-        this.weatherStation = weatherStation;
-    }
-
     @Override
-    public void update() {
-        this.temperature = this.weatherStation.getTemperature();
+    public void update(int temperature) {
+        this.temperature = temperature;
     }
 
     @Override

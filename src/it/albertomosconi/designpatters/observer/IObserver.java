@@ -1,5 +1,5 @@
 package it.albertomosconi.designpatters.observer;
 
 public interface IObserver {
-    void update();
+    void update(int newData);
 }

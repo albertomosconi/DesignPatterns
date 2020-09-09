@@ -20,11 +20,7 @@ public class WeatherStation implements IObservable {
     @Override
     public void notifyObservers() {
         for (IObserver obs: observers)
-            obs.update();
-    }
-
-    public int getTemperature() {
-        return temperature;
+            obs.update(temperature);
     }
 
     public void setTemperature(int temperature) {
