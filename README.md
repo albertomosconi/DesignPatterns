@@ -1,12 +1,11 @@
 <h1 align="center">Design Patterns</h1>
-<p align="center"> A Collection of Design Patterns examples in Java
-    <br> 
-</p>
+<p align="center"> A Collection of Design Patterns examples in Java</p>
+<br> 
 
 ## Table of Contents
-- [About](#About)
-- [Getting Started](#Getting-Started)
-- [Usage](#Usage)
+- [About](#About "About")
+- [Getting Started](#Getting-Started "Getting Started")
+- [Usage](#Usage "Usage")
 
 ## About
 This is a little personal project created with the goal of learning Design Patters in Java. It is by no means a professional guide.
