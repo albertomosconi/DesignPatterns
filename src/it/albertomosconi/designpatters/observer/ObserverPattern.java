@@ -1,8 +1,12 @@
 package it.albertomosconi.designpatters.observer;
 
-public class ObserverPattern {
+import it.albertomosconi.designpatters.Pattern;
 
+public class ObserverPattern implements Pattern {
+
+    @Override
     public void execute() {
+        System.out.println("OBSERVER PATTERN");
         var weatherStation = new WeatherStation();
         var androidPhoneDisplay = new PhoneDisplay();
         weatherStation.add(androidPhoneDisplay);

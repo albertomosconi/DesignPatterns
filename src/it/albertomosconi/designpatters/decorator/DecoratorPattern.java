@@ -1,7 +1,11 @@
 package it.albertomosconi.designpatters.decorator;
 
-public class DecoratorPattern {
+import it.albertomosconi.designpatters.Pattern;
+
+public class DecoratorPattern implements Pattern {
+    @Override
     public void execute(){
+        System.out.println("DECORATOR PATTERN");
         var espresso = new EspressoBeverage();
         System.out.println(espresso.description());
         System.out.println(espresso.cost());
