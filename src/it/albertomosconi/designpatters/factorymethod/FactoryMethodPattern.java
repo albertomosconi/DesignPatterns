@@ -17,5 +17,7 @@ public class FactoryMethodPattern implements Pattern {
             enemyShip.followHeroShip();
             enemyShip.shoot();
         }
+
+        System.out.println();
     }
 }

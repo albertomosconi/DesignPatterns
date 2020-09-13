@@ -7,6 +7,7 @@ public class ObserverPattern implements Pattern {
     @Override
     public void execute() {
         System.out.println("OBSERVER PATTERN");
+
         var weatherStation = new WeatherStation();
         var androidPhoneDisplay = new PhoneDisplay();
         weatherStation.add(androidPhoneDisplay);
@@ -25,5 +26,7 @@ public class ObserverPattern implements Pattern {
         androidPhoneDisplay.display();
         iOSPhoneDisplay.display();
         tvDisplay.display();
+
+        System.out.println();
     }
 }
