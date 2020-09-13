@@ -9,7 +9,7 @@
 
 ## About
 This is a little personal project created with the goal of learning Design Patters in Java. It is by no means a professional guide.
-I took these examples from [this course](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc "this course") on Youtube.
+I took these examples from [this playlist](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc "this course") by [Christopher Okhravi](https://www.youtube.com/channel/UCbF-4yQQAWw-UnuCd2Azfzg "Christopher Okhravi"), and [this playlist](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw "Derek Banas")  on Youtube.
 
 ## Getting Started 
 
