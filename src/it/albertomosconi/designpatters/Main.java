@@ -1,5 +1,6 @@
 package it.albertomosconi.designpatters;
 
+import it.albertomosconi.designpatters.abstractfactory.AbstractFactoryPattern;
 import it.albertomosconi.designpatters.decorator.DecoratorPattern;
 import it.albertomosconi.designpatters.factorymethod.FactoryMethodPattern;
 import it.albertomosconi.designpatters.observer.ObserverPattern;
@@ -19,5 +20,8 @@ public class Main {
 
         var factoryMethodPattern = new FactoryMethodPattern();
         factoryMethodPattern.execute();
+
+        var abstractFactoryPattern = new AbstractFactoryPattern();
+        abstractFactoryPattern.execute();
     }
 }
