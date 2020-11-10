@@ -1,6 +1,7 @@
 package it.albertomosconi.designpatters;
 
 import it.albertomosconi.designpatters.abstractfactory.AbstractFactoryPattern;
+import it.albertomosconi.designpatters.command.CommandPattern;
 import it.albertomosconi.designpatters.decorator.DecoratorPattern;
 import it.albertomosconi.designpatters.factorymethod.FactoryMethodPattern;
 import it.albertomosconi.designpatters.observer.ObserverPattern;
@@ -27,5 +28,8 @@ public class Main {
 
         var singletonPattern = new SingletonPattern();
         singletonPattern.execute();
+
+        var commandPattern = new CommandPattern();
+        commandPattern.execute();
     }
 }
