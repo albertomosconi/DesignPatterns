@@ -4,6 +4,7 @@ import it.albertomosconi.designpatters.abstractfactory.AbstractFactoryPattern;
 import it.albertomosconi.designpatters.decorator.DecoratorPattern;
 import it.albertomosconi.designpatters.factorymethod.FactoryMethodPattern;
 import it.albertomosconi.designpatters.observer.ObserverPattern;
+import it.albertomosconi.designpatters.singleton.SingletonPattern;
 import it.albertomosconi.designpatters.strategy.StrategyPattern;
 
 public class Main {
@@ -23,5 +24,8 @@ public class Main {
 
         var abstractFactoryPattern = new AbstractFactoryPattern();
         abstractFactoryPattern.execute();
+
+        var singletonPattern = new SingletonPattern();
+        singletonPattern.execute();
     }
 }
