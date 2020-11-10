@@ -13,5 +13,7 @@ public class SingletonPattern implements Pattern {
 
 //        it is impossible to create another God instance
 //        var god2 = new God(); <-- this is not allowed: the constructor is private
+
+        System.out.println();
     }
 }
