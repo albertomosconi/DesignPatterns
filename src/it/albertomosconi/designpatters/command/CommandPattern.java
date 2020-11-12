@@ -6,5 +6,7 @@ public class CommandPattern implements Pattern {
     @Override
     public void execute() {
         System.out.println("COMMAND PATTERN");
+
+        System.out.println();
     }
 }
