@@ -20,4 +20,9 @@ public class StrategyPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Strategy Pattern";
+    }
 }

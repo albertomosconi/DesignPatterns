@@ -9,4 +9,9 @@ public class CommandPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Command Pattern";
+    }
 }

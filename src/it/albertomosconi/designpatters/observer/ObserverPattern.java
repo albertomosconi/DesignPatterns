@@ -29,4 +29,9 @@ public class ObserverPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Observer Pattern";
+    }
 }

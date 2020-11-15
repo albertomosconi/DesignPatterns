@@ -18,4 +18,9 @@ public class DecoratorPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Decorator Pattern";
+    }
 }

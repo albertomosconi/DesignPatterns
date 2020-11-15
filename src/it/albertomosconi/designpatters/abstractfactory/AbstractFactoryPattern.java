@@ -17,4 +17,9 @@ public class AbstractFactoryPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Abstract Factory Pattern";
+    }
 }

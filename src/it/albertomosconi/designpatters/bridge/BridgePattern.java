@@ -9,4 +9,9 @@ public class BridgePattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Bridge Pattern";
+    }
 }

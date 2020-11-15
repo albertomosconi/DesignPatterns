@@ -20,4 +20,9 @@ public class FactoryMethodPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Factory Method Pattern";
+    }
 }

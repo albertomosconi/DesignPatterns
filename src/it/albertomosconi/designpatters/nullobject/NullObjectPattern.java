@@ -9,4 +9,9 @@ public class NullObjectPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Null Object Pattern";
+    }
 }

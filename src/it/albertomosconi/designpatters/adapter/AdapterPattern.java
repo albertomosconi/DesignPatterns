@@ -9,4 +9,9 @@ public class AdapterPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Adapter Pattern";
+    }
 }

@@ -9,4 +9,9 @@ public class IteratorPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Iterator Pattern";
+    }
 }

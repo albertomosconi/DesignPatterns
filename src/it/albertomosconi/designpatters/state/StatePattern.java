@@ -9,4 +9,9 @@ public class StatePattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "State Pattern";
+    }
 }

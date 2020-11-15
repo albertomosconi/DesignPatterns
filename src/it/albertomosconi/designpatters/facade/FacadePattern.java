@@ -9,4 +9,9 @@ public class FacadePattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Facade Pattern";
+    }
 }

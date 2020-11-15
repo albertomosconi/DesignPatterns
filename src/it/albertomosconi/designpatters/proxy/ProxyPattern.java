@@ -9,4 +9,9 @@ public class ProxyPattern implements Pattern {
 
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Proxy Pattern";
+    }
 }
