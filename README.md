@@ -6,6 +6,8 @@ To start exploring all the different examples [navigate to this folder](./src/it
 
 You will see a list of all the implemented patterns, with a brief description. Each folder contains the example files, a README with an explanation of the pattern taken from Wikipedia, the UML diagramm and a specific description of the example.
 
+If you want to see the output of an example, clone the repo and execute the main function. This will prompt you with a shell you can use to choose a pattern to run.
+
 ## 🛠 Contributing
 
 ### Prerequisites
