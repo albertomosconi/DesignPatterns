@@ -17,55 +17,57 @@ import it.albertomosconi.designpatters.state.StatePattern;
 import it.albertomosconi.designpatters.strategy.StrategyPattern;
 import it.albertomosconi.designpatters.templatemethod.TemplateMethodPattern;
 
+import java.util.*;
+
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        var abstractFactoryPattern = new AbstractFactoryPattern();
-        abstractFactoryPattern.execute();
+        List<Pattern> patterns = new ArrayList<>(Arrays.asList(
+                new AbstractFactoryPattern(),
+                new AdapterPattern(),
+                new BridgePattern(),
+                new CommandPattern(),
+                new CompositePattern(),
+                new DecoratorPattern(),
+                new FacadePattern(),
+                new FactoryMethodPattern(),
+                new IteratorPattern(),
+                new NullObjectPattern(),
+                new ObserverPattern(),
+                new ProxyPattern(),
+                new SingletonPattern(),
+                new StatePattern(),
+                new StrategyPattern(),
+                new TemplateMethodPattern()
+        ));
 
-        var adapterPattern = new AdapterPattern();
-        adapterPattern.execute();
+        Scanner scanner = new Scanner(System.in);
+        String choice = "h";
+        while (!choice.equals("q")) {
 
-        var bridgePattern = new BridgePattern();
-        bridgePattern.execute();
+            if (choice.equals("h")) {
+                System.out.println("DESIGN PATTERN IMPLEMENTATION EXAMPLES");
+                System.out.println("By Alberto Mosconi - 2020\n");
+                System.out.println("Choose one of the numbers below to see the output of the corresponding example.");
+                System.out.println("Input 'h' to see this menu, and 'q' to quit.");
+                for (int i = 0; i < patterns.size(); i++) {
+                    String p = patterns.get(i).toString();
+                    System.out.println(i + 1 + ": " + p);
+                }
+            } else {
+                try {
+                    if (Integer.parseInt(choice) > 0 && Integer.parseInt(choice) < patterns.size() + 1) {
+                        patterns.get(Integer.parseInt(choice) - 1).execute();
+                    } else {
+                        throw new Exception();
+                    }
+                } catch (Exception e) {
+                    System.out.println("Unknown command. Please enter 'h' to see all available commands.");
+                }
+            }
 
-        var commandPattern = new CommandPattern();
-        commandPattern.execute();
-
-        var compositePattern = new CompositePattern();
-        compositePattern.execute();
-
-        var decoratorPattern = new DecoratorPattern();
-        decoratorPattern.execute();
-
-        var facadePattern = new FacadePattern();
-        facadePattern.execute();
-
-        var factoryMethodPattern = new FactoryMethodPattern();
-        factoryMethodPattern.execute();
-
-        var iteratorPattern = new IteratorPattern();
-        iteratorPattern.execute();
-
-        var nullObjectPattern = new NullObjectPattern();
-        nullObjectPattern.execute();
-
-        var observerPattern = new ObserverPattern();
-        observerPattern.execute();
-
-        var proxyPattern = new ProxyPattern();
-        proxyPattern.execute();
-
-        var singletonPattern = new SingletonPattern();
-        singletonPattern.execute();
-
-        var statePattern = new StatePattern();
-        statePattern.execute();
-
-        var strategyPattern = new StrategyPattern();
-        strategyPattern.execute();
-
-        var templateMethodPattern = new TemplateMethodPattern();
-        templateMethodPattern.execute();
+            System.out.print("> ");
+            choice = scanner.nextLine();
+        }
     }
 }
