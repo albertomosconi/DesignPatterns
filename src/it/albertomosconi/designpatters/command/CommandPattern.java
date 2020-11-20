@@ -7,6 +7,17 @@ public class CommandPattern implements Pattern {
     public void execute() {
         System.out.println("COMMAND PATTERN");
 
+        Stock stockABC = new Stock("ABC");
+
+        BuyStockOrder buyStockOrder = new BuyStockOrder(stockABC);
+        SellStockOrder sellStockOrder = new SellStockOrder(stockABC);
+
+        Broker broker = new Broker();
+        broker.takeOrder(buyStockOrder);
+        broker.takeOrder(sellStockOrder);
+
+        broker.placeOrders();
+
         System.out.println();
     }
 
