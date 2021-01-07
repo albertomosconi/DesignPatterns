@@ -41,3 +41,4 @@ code .
 - [Design Patterns in Object Oriented Programming (Youtube)](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc "this course") by [Christopher Okhravi](https://www.youtube.com/channel/UCbF-4yQQAWw-UnuCd2Azfzg "Christopher Okhravi")
 - [Design Patterns Video Tutorial (Youtube)](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw "Derek Banas")
 - [DesignPatterns (Github)](https://github.com/OmarElGabry/DesignPatterns) by [Omar ElGabry](https://github.com/OmarElGabry)
+- [Design Patterns in Java](https://www.tutorialspoint.com/design_pattern/index.htm) on [tutorialspoint.com](https://www.tutorialspoint.com/index.htm)
