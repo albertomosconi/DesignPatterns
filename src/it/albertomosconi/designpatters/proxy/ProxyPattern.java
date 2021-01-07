@@ -7,6 +7,14 @@ public class ProxyPattern implements Pattern {
     public void execute() {
         System.out.println("PROXY PATTERN");
 
+        Image image = new ProxyImage("cats_and_dogs.jpg");
+
+        // the image will be loaded from disk.
+        image.display();
+
+        // the image is already loaded, no need to load it again.
+        image.display();
+
         System.out.println();
     }
 
